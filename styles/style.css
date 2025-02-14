@@ -22,3 +22,27 @@ header {
 .project-row:hover{
     transform: scale(1.15)
 }
+
+.bnuyy{
+    background-color: aliceblue;
+}
+
+p.bnuyy{
+    color: rgb(199, 97, 97);
+}
+
+.ufo{
+    background-color: #000000;
+}
+
+p.ufo{
+    color:yellow
+}
+
+
+.ballet-logo {
+    font-family: "Ballet", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
