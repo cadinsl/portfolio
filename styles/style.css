@@ -1,0 +1,24 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: Times New Roman;
+}
+header {
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.project-row {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition: all 0.3s
+}
+
+.project-row:hover{
+    transform: scale(1.15)
+}
