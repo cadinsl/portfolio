@@ -31,6 +31,12 @@ header {
     transform: scale(1.15)
 }
 
+.lollipop{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: normal;
+}
+
 .bnuyy{
     background-color: aliceblue;
     font-family: "Quicksand", serif;
@@ -53,6 +59,18 @@ body.ufo{
     font-weight: 400;
     font-style: normal;
 }
+
+.sueno{
+    background-color: skyblue;
+}
+
+body.ufo{
+    color:yellow;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 header.ufo{
     background-color: black;
     color: yellow;
