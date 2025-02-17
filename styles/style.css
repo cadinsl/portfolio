@@ -73,4 +73,8 @@ header.ufo{
         width: 40%;
       }
 }
+
+video {
+    clip-path: inset(1px 1px);
+}
   
