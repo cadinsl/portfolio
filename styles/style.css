@@ -1,12 +1,17 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
-p{
-    font-family: Times New Roman;
+
+.index{
+    background-color: white;
+    font-family: "Prosto One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 header {
     background-color: white;
     color: #000000;
@@ -18,8 +23,8 @@ header {
 }
 
 .project-row {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     transition: all 0.3s
 }
 
@@ -29,6 +34,10 @@ header {
 
 .bnuyy{
     background-color: aliceblue;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 body.bnuyy{
@@ -40,7 +49,10 @@ body.bnuyy{
 }
 
 body.ufo{
-    color:yellow
+    color:yellow;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 header.ufo{
     background-color: black;
@@ -77,4 +89,37 @@ header.ufo{
 video {
     clip-path: inset(1px 1px);
 }
+
+.prosto-one-regular {
+    font-family: "Prosto One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.quicksand-p {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+  
+  
   
