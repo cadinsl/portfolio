@@ -10,8 +10,11 @@ p{
 header {
     background-color: white;
     color: #000000;
-    padding: 10px 0;
     text-align: center;
+    height: 80px; /* Adjust this value as needed */
+    display: flex;
+    align-items: center; /* Vertically center the logo */
+    justify-content: center; /* Horizontally center the logo */
 }
 
 .project-row {
@@ -51,4 +54,23 @@ header.ufo{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+.logo{
+    width:10%
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .logo {
+      width: 30%;
+    }
   }
+
+@media  screen and (max-width: 557px) 
+{
+    .logo {
+        width: 40%;
+      }
+}
+  
