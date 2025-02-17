@@ -8,6 +8,7 @@ p{
     font-family: Times New Roman;
 }
 header {
+    background-color: white;
     color: #000000;
     padding: 10px 0;
     text-align: center;
@@ -27,7 +28,7 @@ header {
     background-color: aliceblue;
 }
 
-p.bnuyy{
+body.bnuyy{
     color: rgb(199, 97, 97);
 }
 
@@ -35,9 +36,14 @@ p.bnuyy{
     background-color: #000000;
 }
 
-p.ufo{
+body.ufo{
     color:yellow
 }
+header.ufo{
+    background-color: black;
+    color: yellow;
+}
+
 
 
 .ballet-logo {
