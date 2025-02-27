@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const txtPath = "writing/" +paperName+"/"+paperName + ".txt"
             const wordPath = "writing/" +paperName+"/"+paperName + ".docx"
             const pdfPath = "writing/" +paperName+"/"+paperName + ".pdf"
-
+            
             try {
                 // Fetch the content from the text file
                 const response = await fetch(txtPath);
