@@ -2,6 +2,9 @@
 body {
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .index{
@@ -38,37 +41,28 @@ header {
 }
 
 .bnuyy{
-    background-color: aliceblue;
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+    background-color: white;
 }
 
 body.bnuyy{
-    color: rgb(199, 97, 97);
+    color: #546E87;
 }
 
 .ufo{
-    background-color: #000000;
+    background-color: white;
 }
 
 body.ufo{
-    color:yellow;
-    font-family: "Press Start 2P", serif;
-    font-weight: 400;
-    font-style: normal;
+    color: #546E87;
 }
 
 .sueno{
-    background-color: skyblue;
+    background-color: white;
+    color: #546E87;
 }
 
 body.ufo{
-    color:yellow;
-    font-family: "Press Start 2P", serif;
-    font-weight: 400;
-    font-style: normal;
+    color: #546E87;
 }
 
 header.ufo{
